@@ -25,12 +25,15 @@
  */
 
 #import "CRLAppDelegate.h"
+@import Sentry;
 
 @implementation CRLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  return YES;
+    [SentryClient setShared:[[SentryClient alloc] initWithDsnString:@"https://2163fb60807845b9846fed691c3fe54a:46a5b3af6c704fe9b9c9883d5e983438@sentry.io/148741"]];
+    [[SentryClient shared] startCrashHandler];
+    return YES;
 }
 
 @end
