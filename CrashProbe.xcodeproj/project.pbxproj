@@ -23,8 +23,8 @@
 		1ECAB6F01922B1C70005D14E /* 144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6EA1922B1C70005D14E /* 144x144.png */; };
 		1ECAB6F21922B49D0005D14E /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F11922B49D0005D14E /* 80x80.png */; };
 		1ECAB6F41922B4A30005D14E /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F31922B4A30005D14E /* 120x120.png */; };
-		8DB1EEDB6854340FA8B53229 /* Pods_CrashProbe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3936A2D22C2B48779FDDE43B /* Pods_CrashProbe.framework */; };
-		F1D34CAE608AD0B93B120749 /* Pods_CrashProbeiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFF8D45EF325A63AFEC73A7 /* Pods_CrashProbeiOS.framework */; };
+		6B13E0265BBBB2434AB744E0 /* Pods_CrashProbe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77CB3330DDB15C75800ACAF /* Pods_CrashProbe.framework */; };
+		92FEB6F8DCA69330DCB19570 /* Pods_CrashProbeiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED60CD98F993E711EF750C4 /* Pods_CrashProbeiOS.framework */; };
 		FA43921A170F134600801CAB /* CRLFakeCXXClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA439219170F134600801CAB /* CRLFakeCXXClass.mm */; };
 		FAAC52E71A030B9E00451D90 /* CRLCrashSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC52E61A030B9E00451D90 /* CRLCrashSwift.swift */; };
 		FAB374D116DBEAF00039B8AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB374D016DBEAF00039B8AE /* main.m */; };
@@ -201,6 +201,7 @@
 		05BB1F0A18A1AAAF00914852 /* CRLFramelessDWARF_arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = CRLFramelessDWARF_arm64.s; path = CrashProbe/CRLFramelessDWARF_arm64.s; sourceTree = SOURCE_ROOT; };
 		05BB1F1118A1AB7400914852 /* CRLFramelessDWARF_i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = CRLFramelessDWARF_i386.s; path = CrashProbe/CRLFramelessDWARF_i386.s; sourceTree = SOURCE_ROOT; };
 		05BB1F1418A1AB8500914852 /* CRLFramelessDWARF_x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = CRLFramelessDWARF_x86_64.s; path = ../CrashProbe/CRLFramelessDWARF_x86_64.s; sourceTree = "<group>"; };
+		0ED60CD98F993E711EF750C4 /* Pods_CrashProbeiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashProbeiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E12D701191FBED600C74365 /* CRLCrashAsyncSafeThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRLCrashAsyncSafeThread.h; path = CrashProbe/CRLCrashAsyncSafeThread.h; sourceTree = SOURCE_ROOT; };
 		1E12D702191FBED600C74365 /* CRLCrashAsyncSafeThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRLCrashAsyncSafeThread.m; path = CrashProbe/CRLCrashAsyncSafeThread.m; sourceTree = SOURCE_ROOT; };
 		1E1789DF189B15CF00CE4C53 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -224,8 +225,7 @@
 		1ECAB6F31922B4A30005D14E /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
 		24B46885562FE12ED250D28A /* Pods-CrashProbe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashProbe.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrashProbe/Pods-CrashProbe.release.xcconfig"; sourceTree = "<group>"; };
 		271CDA88BAF4CE26D53610F3 /* Pods-CrashProbeiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashProbeiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrashProbeiOS/Pods-CrashProbeiOS.release.xcconfig"; sourceTree = "<group>"; };
-		3936A2D22C2B48779FDDE43B /* Pods_CrashProbe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashProbe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FFF8D45EF325A63AFEC73A7 /* Pods_CrashProbeiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashProbeiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77CB3330DDB15C75800ACAF /* Pods_CrashProbe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashProbe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF5E1E34537633761C8770C /* Pods-CrashProbeiOS.debug_donotuse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashProbeiOS.debug_donotuse.xcconfig"; path = "Pods/Target Support Files/Pods-CrashProbeiOS/Pods-CrashProbeiOS.debug_donotuse.xcconfig"; sourceTree = "<group>"; };
 		FA4391E4170F113B00801CAB /* CrashLib-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrashLib-iOS-Info.plist"; sourceTree = "<group>"; };
 		FA4391E6170F113B00801CAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -341,7 +341,7 @@
 				1E77329B189B184800EB3F5A /* Foundation.framework in Frameworks */,
 				1E77329A189B184200EB3F5A /* UIKit.framework in Frameworks */,
 				1E773298189B183B00EB3F5A /* SystemConfiguration.framework in Frameworks */,
-				F1D34CAE608AD0B93B120749 /* Pods_CrashProbeiOS.framework in Frameworks */,
+				92FEB6F8DCA69330DCB19570 /* Pods_CrashProbeiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +351,7 @@
 			files = (
 				FACDBAF1170F0DD60059F0A7 /* CrashLib.framework in Frameworks */,
 				FAF9BCB916D2924500C8BB7D /* Cocoa.framework in Frameworks */,
-				8DB1EEDB6854340FA8B53229 /* Pods_CrashProbe.framework in Frameworks */,
+				6B13E0265BBBB2434AB744E0 /* Pods_CrashProbe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,8 +551,8 @@
 				FAF9BCB816D2924500C8BB7D /* Cocoa.framework */,
 				FAF9BCD616D2924500C8BB7D /* SenTestingKit.framework */,
 				1E1789DF189B15CF00CE4C53 /* XCTest.framework */,
-				3FFF8D45EF325A63AFEC73A7 /* Pods_CrashProbeiOS.framework */,
-				3936A2D22C2B48779FDDE43B /* Pods_CrashProbe.framework */,
+				A77CB3330DDB15C75800ACAF /* Pods_CrashProbe.framework */,
+				0ED60CD98F993E711EF750C4 /* Pods_CrashProbeiOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -892,7 +892,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		6EB45D095067823FEB750608 /* [CP] Check Pods Manifest.lock */ = {
@@ -907,7 +907,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		6EC8A9B5DF9438E1FC6EC21D /* [CP] Embed Pods Frameworks */ = {
