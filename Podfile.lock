@@ -62,28 +62,28 @@ PODS:
     - KSCrash/Reporting/Tools
   - KSCrash/Reporting/Tools (1.15.8):
     - KSCrash/Recording
-  - Sentry/Core (3.0.4)
-  - Sentry/KSCrash (3.0.4):
+  - Sentry/Core (3.0.7)
+  - Sentry/KSCrash (3.0.7):
     - KSCrash (~> 1.15.8)
 
 DEPENDENCIES:
-  - Sentry/Core (from `https://github.com/getsentry/sentry-cocoa.git`, tag `3.0.4`)
-  - Sentry/KSCrash (from `https://github.com/getsentry/sentry-cocoa.git`, tag `3.0.4`)
+  - Sentry/Core (from `https://github.com/getsentry/sentry-cocoa.git`, tag `3.0.7`)
+  - Sentry/KSCrash (from `https://github.com/getsentry/sentry-cocoa.git`, tag `3.0.7`)
 
 EXTERNAL SOURCES:
   Sentry:
     :git: https://github.com/getsentry/sentry-cocoa.git
-    :tag: 3.0.4
+    :tag: 3.0.7
 
 CHECKOUT OPTIONS:
   Sentry:
     :git: https://github.com/getsentry/sentry-cocoa.git
-    :tag: 3.0.4
+    :tag: 3.0.7
 
 SPEC CHECKSUMS:
   KSCrash: 4acb0f9cdb0b1ce7155c608dc175d91d750a8c3a
-  Sentry: 8970911143109f9e87971913f6e2b7f3f4f08a5f
+  Sentry: f411a49e30a90882932173057bb33cc1f4af7837
 
-PODFILE CHECKSUM: 0af050eb5b1b5ac7984957ae9eca220068a602bf
+PODFILE CHECKSUM: 62d180f2a9f9ae8a915e8c3c13234b79cbab545b
 
 COCOAPODS: 1.2.1
